@@ -1,0 +1,63 @@
+{
+    "games":[
+        {
+            "title": "Mario Kart 65",
+            "price":"24.99$",
+            "desc": "Experience the thrill of racing with Mario and friends, in the classic karting game- Now in 3D! Nintendo Switch version available.",
+            "f1": "Classic Mario Characters",
+            "f2": "Iconic Tracks and Music",
+            "f3": "4-Player Local Multiplayer",
+            "img": "images/mk65.png"
+        }
+        ,
+        {
+            "title":"Dark Soles II",
+            "price":"59.99$",
+            "desc":"A dark fantasy action-RPG about a cursed pair of \"kicks\" traveling to a ruined kingdom, in search of a special cure.",
+            "f1":"Xbox, PS, Switch 2, and PC versions available",
+            "f2":"2-Player Local Splitscreen",
+            "f3":"Can run at up at 4K 60FPS or 1440p 120FPS on select systems."
+        }
+        ,
+        {
+            "title":"Carl on Duty: Black Cops",
+            "price":"39.99$",
+            "desc":"Be an officer. Be Carl. Save NYC from the hoodlums and criminals terrorizing the subways, in this new fast-paced justice shooter.",
+            "f1":"Online Multiplayer Modes",
+            "f2":"Xbox Two and PC exclusive",
+            "f3":"Free DLC included!",
+            "img":"images/codbc.jpg"
+        }
+        ,
+        {
+            "title":"Call of Duty: Kitchen Patrol",
+            "price":"39.99$",
+            "desc":"NATO's Soldiers won't feed themselves! Rush to the rescue and prepare delicious and fortifying measls for our men.",
+            "f1":"Real Military Recipes!",
+            "f2":"High-Quality Graphics",
+            "f3":"Online Competitive Modes, with more coming soon!",
+            "img":"images/codkp.jpg"
+        }
+        ,
+        {
+            "title":"",
+            "price":"",
+            "desc":"",
+            "f1":"",
+            "f2":"",
+            "f3":"",
+            "img":""
+        }
+        ,
+        {
+            "title":"",
+            "price":"",
+            "desc":"",
+            "f1":"",
+            "f2":"",
+            "f3":"",
+            "img":""
+        }
+
+    ]
+}
