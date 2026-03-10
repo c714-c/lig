@@ -1,0 +1,81 @@
+/* Fonts */
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 98.5;
+}
+
+.vend-sans{
+  font-family: "Vend Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+}
+
+/* Dropdown1 */
+.mainMenu{
+background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdownMain{
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Cards */
+.short hr{
+    border: .1px solid blue;
+    width: 250px;
+    margin: 5px 0 15px 0;
+}
+
+.item-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px 21px;
+}
+.item-cards img{
+    width: 250px;
+    max-height: 250px;
+    border-radius: 15px;
+}
+.card{
+    width: 310px;
+    padding: 20px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: light-dark(rgb(170, 187, 228), rgb(67, 67, 67));
+    border-radius: 20px;
+    height: 690px;
+    transition: transform .2s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+
+h6{
+    margin: 10px 0 12px 0
+}
+
+.item-cards h4{
+    margin: 25px 0 15px 0;
+}
+
+.item-cards li{
+    margin-top: 5px;
+}
+
+.item-cards h2{
+    margin-top: 15px;
+}
