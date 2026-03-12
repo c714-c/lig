@@ -3,6 +3,7 @@
   <head>
     <title>LIG Home</title>
     <script src="script.js"></script>
+    <link rel="icon" type="image/x-icon" href="logo.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="function-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,24 +15,98 @@
 
   <body>
     <header>
+
         <div class="dropdownMain">
-          <button class="mainMenu">&#9776;</button>
-          <nav>
+          <button class="menuButton">&#9776;</button>
+          <nav class="menuContents">
               <a href="index.html"><b><u>Home</u></b></a>
               <a href="games.html">Games & Software</a>
               <a href="hardware.html">Hardware</a>
-              <a href="contact.html">Contact</a>
-              <a href="about.html">About</a>
+              <a href="contact.html">Locations / Contact</a>
+              <a href="index.html#extra">About</a>
           </nav>
         </div>
-        <h1>Lorem Ipsum Gaming</h1>
+
+        <div class="header-center">
+          <h1>Lorem Ipsum Gaming</h1>
+          <script async src="https://cse.google.com/cse.js?cx=c343a56d8867c4c72">
+            </script>
+            <div class="gcse-search">
+          </div>
+        </div>
+      <div class="header-right">
+        <button><img src="account.png" alt="Account"></button>
+      </div>
+
     </header>
 
     <main>
-      <h1><mark>Welcome.</mark></h1>
+
+      <h1>Welcome.</h1>
+      <hr class="divider">
+      <h2>Discover the <span class="red">latest games</span>, <span class="turqouise">software</span>, and more here at LIG.</h2>
+
+      <div class="showcase-ext">
+        <h1>Featured</h1>
+        <div class="showcase">
+          <div class="show-card">
+            <img src="images/mk65.png" alt="Mario Kart 65">
+            <h3>Classics Available. Hop on your favorite "retro" games.</h3>
+          </div>
+          <div class="show-card">
+            <img src="images/mk65.png" alt="Mario Kart 65">
+            <h3>Filler Text</h3>
+          </div>
+          <div class="show-card">
+            <img src="images/mk65.png" alt="Mario Kart 65">
+            <h3>Filler Text</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="extra-ext">
+        <div id="extra">
+          <h1>About, and <i>Why Us?</i></h1>
+          <p>At LIG, we are devoted to the distribution, restoration and the ability to access games. While physical media is currently only available for purchase in-store,
+            we offer lots of hardware and software that come from many countries, and many brands.
+          </p>
+          <br>
+          <p>Our team is made up of passionate gamers and tech enthusiasts who are dedicated to providing the best gaming experience possible. Founded in 2000, LIG has grown from a small local store selling
+            card games to a leading competitor to major gaming retailers. Our team consists of 20 in-store employees and 32 employees working remotely, or with logistics. We only serve United States customers, 
+            but in the future we plan to expand to other countries. We are committed to providing excellent customer service and support, and we strive to create a welcoming and inclusive community for gamers of all backgrounds and skill levels.
+          </p>
+          <p>
+
+          </p>
+        </div>
+      </div>
+
     </main>
 
+    <div id="cookie-banner" class="cookie-banner">
+        <div class="cookie-content">
+            <p>We use cookies to improve your experience. <a href="https://example.com">Learn more</a></p>
+            <div class="options">
+              <button id="cookie-button">Got it!</button>
+              <button id="cookie-button2">Deny non-essential cookies.</button>
+            </div>
+        </div>
+    </div>
+
+    <style>
+      .red{
+        color: rgb(255, 54, 50)
+      }
+      .turqouise{
+        color: rgb(107, 203, 179)
+      }
+    </style>
+
     <footer>
+      <p>Copyright &copy; 2026 Lorem Ipsum Gaming</p>
+      <p>Designed by John Doe.</p>
+      <p><a href="https://www.example.com">Privacy Policy</a></p>
+      <p><a href="https://www.example.com">Terms of Service</a></p>
     </footer>
   </body>
 </html>

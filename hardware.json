@@ -1,0 +1,115 @@
+{
+    "hardware": [
+        {
+            "name": "PlayStation 5",
+            "price":"499.99$",
+            "year": 2020,
+            "description": "The latest console from Sony, featuring a custom SSD for fast load times and a new controller with haptic feedback.",
+            "image": "images/ps5.jpg"
+        }
+        ,
+        {
+            "name": "Xbox Series X",
+            "price":"499.99$",
+            "year": 2020,
+            "description": "Microsoft's next-gen console, offering powerful hardware and backward compatibility with previous Xbox games.",
+            "image": "images/xboxSx.jpg"
+        }
+        ,
+        {
+            "name": "Nintendo Switch 2",
+            "price":"399.99$",
+            "year": 2025,
+            "description": "The successor to the original Switch, featuring improved hardware and graphics.",
+            "image": "images/ns2.jpg"
+        }
+        ,
+         {
+            "name": "LIG Gaming PC",
+            "price":"719.99$",
+            "year": 2026,
+            "description": "Pre-Built. Featuring an AMD Ryzen 5 7600, AMD 7600XTX, 32GB of DDR5 RAM, 1TB of NVMe storage, WiFi 6E, and a case with RGB. Windows 11 Home included.",
+            "image": "images/gamingPC.jpg"
+        }
+        ,
+        {
+            "name": "Nintendo Switch",
+            "price":"299.99$",
+            "year": 2017,
+            "description": "A versatile console that can be used as a handheld device or connected to a TV, known for its exclusive games.",
+            "image": "images/ns.jpg"
+        }
+        ,
+        {
+            "name":"PlayStation Portal",
+            "price":"199.99$",
+            "year": 2024,
+            "description": "A handheld console from Sony, designed for gaming on the go with a focus on remote play.",
+            "image": "images/psPortal.jpg"
+        }
+        ,
+        {
+            "name": "[LTD.] Wii-U (Refurbished)",
+            "price":"189.99$",
+            "year": 2012,
+            "description": "Nintendo's previous console, featuring a unique gamepad with a built-in screen, allowing for innovative gameplay experiences.",
+            "image": "images/wiiu.jpg"
+        }
+        ,
+        {
+            "name": "PlayStation 4 Pro",
+            "price":"279.99$",
+            "year": 2016,
+            "description": "Sony's previous generation console, known for its strong lineup of exclusive games and multimedia capabilities.",
+            "image": "images/ps4pro.jpg"
+        }
+        ,
+        {
+            "name": "Xbox One X",
+            "price":"319.99$",
+            "year": 2017,
+            "description": "Microsoft's previous generation console, offering enhanced performance and a wide range of games and entertainment options.",
+            "image": "images/xboxOx.jpg"
+        }
+        ,
+        {
+            "name": "Nintendo 3DS (New or Refurbished)",
+            "price":"169.99$",
+            "year": 2011,
+            "description": "A handheld console from Nintendo, featuring dual screens and the ability to display 3D graphics without the need for special glasses.",
+            "image": "images/3ds.jpg"
+        }
+        ,
+        {
+            "name": "Xbox 360 (Refurbished)",
+            "price":"189.99$",
+            "year": 2005,
+            "description": "Microsoft's Second console, known for its extensive library of games and online multiplayer capabilities through Xbox Live.",
+            "image": "images/xbox360.jpg"
+        }
+        ,
+        {
+            "name": "[LTD.] PlayStation 2",
+            "price":"199.99$",
+            "year": 2000,
+            "description": "Sony's 2nd iconic console, known for its vast library of games and DVD playback capabilities.",
+            "image": "images/ps2.jpg"
+        }
+        ,
+        {
+            "name": "Sega Dreamcast (Refurbished)",
+            "price":"249.99$",
+            "year": 1998,
+            "description": "Sega's final home console, known for its innovative features and online capabilities.",
+            "image": "images/dreamcast.jpg"
+        }
+        ,
+        {
+            "name": "[LTD.] Atari 2600 (Refurbished)",
+            "price":"399.99$",
+            "year": 1977,
+            "description": "Atari's classic console, known for popularizing home gaming with iconic titles.",
+            "image": "images/atari2600.jpg"
+        }
+    ]
+}

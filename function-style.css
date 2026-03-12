@@ -17,7 +17,6 @@
 
 /* Dropdown1 */
 .mainMenu{
-background-color: #04AA6D;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -28,6 +27,33 @@ background-color: #04AA6D;
     position: relative;
     display: inline-block;
 }
+
+.menuContents{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.menuContents a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.menuButton{
+    width: 50px;
+    height: 30px;
+    font-size: 15px;;
+}
+
+
+.menuContents a:hover {background-color: #ddd;}
+.dropdownMain:hover .menuContents {display: block;}
+.dropdownMain:hover .menuButton{background-color: light-dark(#ff8254,#8f0000);}
 
 
 /* Cards */
@@ -59,6 +85,7 @@ background-color: #04AA6D;
     border-radius: 20px;
     height: 690px;
     transition: transform .2s ease-in-out;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 .card:hover{
     transform: scale(1.05);
@@ -78,4 +105,91 @@ h6{
 
 .item-cards h2{
     margin-top: 15px;
+}
+
+/* GCSE */
+.search-container {
+    width: 300px;
+    margin: 0;
+}
+
+.gsc-control-cse {
+    padding: 0 !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.gsc-branding, 
+.gcsc-branding,
+.gsc-adBlock {
+    display: none !important;
+}
+
+.gsc-search-box-container {
+    margin-bottom: 0 !important;
+}
+
+.gsc-input-box {
+    background-color: #ffffff !important;
+    border: 1px solid #dfe1e5 !important;
+    border-radius: 4px;
+}
+
+input.gsc-input, 
+.gsc-input-box-focus {
+    background: none !important;
+    background-color: transparent !important;
+    color: #000000 !important;
+}
+
+.gsib_b {
+    background: transparent !important;
+}
+
+/* Other Balance that refuses to want to work how I want it to */
+header h1 {
+    white-space: nowrap;
+    margin: 0 20px 0 40px;
+}
+
+/* Cookies */
+
+.cookie-banner {
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
+    z-index: 9999;
+    display: none;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
+}
+.cookie-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#cookie-button, #cookie-button2{
+    background: #ff5858;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+#cookie-button:hover, #cookie-button2:hover {
+    background-color: #cd1b1b;
+}
+
+.options{
+    display: flex;
+    gap: 50px;
 }
