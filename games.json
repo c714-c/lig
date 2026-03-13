@@ -3,6 +3,7 @@
         {
             "title": "Mario Kart 65",
             "price":"24.99$",
+            "year": "1997",
             "desc": "Experience the thrill of racing with Mario and friends, in the classic karting game- Now in 3D! Nintendo Switch version available.",
             "f1": "Classic Mario Characters",
             "f2": "Iconic Tracks and Music",
@@ -13,15 +14,18 @@
         {
             "title":"Dark Soles II",
             "price":"59.99$",
+            "year": "2014",
             "desc":"A dark fantasy action-RPG about a cursed pair of \"kicks\" traveling to a ruined kingdom, in search of a special cure.",
             "f1":"Xbox, PS, Switch 2, and PC versions available",
             "f2":"2-Player Local Splitscreen",
-            "f3":"Can run at up at 4K 60FPS or 1440p 120FPS on select systems."
+            "f3":"Can run at up at 4K 60FPS or 1440p 120FPS on select systems.",
+            "img": "images/darksoles.png"
         }
         ,
         {
             "title":"Carl on Duty: Black Cops",
             "price":"39.99$",
+            "year": "2011",
             "desc":"Be an officer. Be Carl. Save NYC from the hoodlums and criminals terrorizing the subways, in this new fast-paced justice shooter.",
             "f1":"Online Multiplayer Modes",
             "f2":"Xbox Two and PC exclusive",
@@ -32,6 +36,7 @@
         {
             "title":"Call of Duty: Kitchen Patrol",
             "price":"39.99$",
+            "year": "2009",
             "desc":"NATO's Soldiers won't feed themselves! Rush to the rescue and prepare delicious and fortifying meals for our men.",
             "f1":"Real Military Recipes!",
             "f2":"High-Quality Graphics",
@@ -40,24 +45,58 @@
         }
         ,
         {
-            "title":"",
-            "price":"",
-            "desc":"",
-            "f1":"",
-            "f2":"",
-            "f3":"",
-            "img":""
+            "title":"Grand Theft Authors",
+            "price":"59.99$",
+            "desc":"You're above the law. Commit piracy, theft, illegal distribution, and many other notorious crimes in the library-based open world shooter.",
+            "year": "2021",
+            "f1":"Available for all current-gen consoles.",
+            "f2":"Impressive graphics, runs on lower-end PCs smoothly.",
+            "f3":"Original content by Rockplanet Games",
+            "img":"images/gta.png"
+        }
+        ,
+        {
+            "title":"Block Craft 3D",
+            "price":"Free",
+            "desc":"Mine, Create, Craft and have fun in this simple sandbox game.",
+            "year": "2016",
+            "f1":"Play alone, or with friends!",
+            "f2":"Recently Updated",
+            "f3":"Fun for All Ages! Rated E by ESRB.",
+            "img":"images/block.jpg"
+        }
+        ,
+        {
+            "title":"Super Plumber Run!",
+            "price":"Free / 2.99$",
+            "year": "2014",
+            "desc":"The Super Plumber returns to save Fungi Palace! Step on the evil reptiles, get fire powers, and save the Queen Mango in this action-packed 2D classic.",
+            "f1":"Mobile exclusive, runs on Android 8+ or iOS 11+",
+            "f2":"Web demo available, with PC Keyboard Support",
+            "f3":"Remove Ads with a one-time purchase of 3$",
+            "img":"images/spr.jpg"
+        }
+        ,
+        {
+            "title":"Malevolent Citizen",
+            "price":"19.99$",
+            "year": "2010",
+            "desc":"Fight the zombies created by the Raincover Corporation. Uncover the truth. Save Skunk City, and solve mysteries along the way, in this horror shooter.",
+            "f1":"Play as the infamous Landon S. Kenton.",
+            "f2":"Horror and fear await you at every corner.",
+            "f3":"PlayStation exclusive, with an Xbox version coming in 2027.",
+            "img":"images/malevolent.png"
         }
         ,
         {
             "title":"",
             "price":"",
+            "year": "",
             "desc":"",
             "f1":"",
             "f2":"",
             "f3":"",
             "img":""
         }
-
     ]
 }

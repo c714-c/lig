@@ -34,6 +34,12 @@ document.addEventListener("DOMContentLoaded", () => {
                         <h6>${game.year}</h6>
                         <div class="short"><hr></div>
                         <p>${game.desc}</p>
+                        <br>
+                        <ul>
+                            <li>${game.f1}</li>
+                            <li>${game.f2}</li>
+                            <li>${game.f3}</li>
+                        </ul>
                     `;
                     catalogue.appendChild(itemCard);
                 });
