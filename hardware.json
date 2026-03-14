@@ -21,7 +21,7 @@
             "price":"399.99$",
             "year": 2025,
             "description": "The successor to the original Switch, featuring improved hardware and graphics.",
-            "image": "images/ns2.jpg"
+            "image": "images/ns2.png"
         }
         ,
          {
@@ -61,7 +61,7 @@
             "price":"279.99$",
             "year": 2016,
             "description": "Sony's previous generation console, known for its strong lineup of exclusive games and multimedia capabilities.",
-            "image": "images/ps4pro.jpg"
+            "image": "images/ps4pro.png"
         }
         ,
         {
@@ -69,7 +69,7 @@
             "price":"319.99$",
             "year": 2017,
             "description": "Microsoft's previous generation console, offering enhanced performance and a wide range of games and entertainment options.",
-            "image": "images/xboxOx.jpg"
+            "image": "images/xbox1x.jpg"
         }
         ,
         {
@@ -109,7 +109,7 @@
             "price":"399.99$",
             "year": 1977,
             "description": "Atari's classic console, known for popularizing home gaming with iconic titles.",
-            "image": "images/atari2600.jpg"
+            "image": "images/atari2600.png"
         }
     ]
 }

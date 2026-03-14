@@ -2,39 +2,40 @@ document.addEventListener("DOMContentLoaded", () => {
     const banner = document.getElementById("cookie-banner");
     const cookieButton = document.getElementById("cookie-button");
     const cookieButton2 = document.getElementById("cookie-button2");
-
-    banner.style.display = "block";
-
-    cookieButton.addEventListener("click", () => {
-        banner.style.display = "none";
-    });
-
-    cookieButton2.addEventListener("click", () => {
-        banner.style.display = "none";
-    });
-});
-
-
-document.addEventListener("DOMContentLoaded", () => {
+    
     const catalogue = document.querySelector(".item-cards");
+    const modal = document.getElementById("imageModal");
+    const modalImg = document.getElementById("img01");
+    const captionText = document.getElementById("caption");
+    const span = document.querySelector(".close");
 
-    if (window.location.pathname.includes("games.html")) {
+    const path = window.location.pathname;
+
+    if (banner) {
+        banner.style.display = "block";
+        [cookieButton, cookieButton2].forEach(btn => {
+            if (btn) btn.onclick = () => banner.style.display = "none";
+        });
+    }
+
+    if (path.includes("games.html") || path.includes("index.html") || path === "/") {
         fetch("games.json")
-            .then(response => response.json())
+            .then(res => res.json())
             .then(data => {
-                const games = data.games;
+                if (!catalogue) return;
                 catalogue.innerHTML = ''; 
-                games.forEach(game => {
+                data.games.forEach(game => {
+                    if (!game.title) return;
+
                     const itemCard = document.createElement("div");
                     itemCard.classList.add("card"); 
                     itemCard.innerHTML = `
-                        <img src="${game.img}" alt="${game.title}"> 
+                        <img class="myImg" src="${game.img}" alt="${game.title}"> 
                         <h2>${game.title}</h2>
                         <h4>${game.price}</h4>
                         <h6>${game.year}</h6>
                         <div class="short"><hr></div>
                         <p>${game.desc}</p>
-                        <br>
                         <ul>
                             <li>${game.f1}</li>
                             <li>${game.f2}</li>
@@ -42,17 +43,25 @@ document.addEventListener("DOMContentLoaded", () => {
                         </ul>
                     `;
                     catalogue.appendChild(itemCard);
+                    const img = itemCard.querySelector('.myImg');
+                    img.onclick = function() {
+                        if (modal) {
+                            modal.style.display = "block";
+                            modalImg.src = this.src;
+                            captionText.innerHTML = this.alt;
+                        }
+                    };
                 });
             });
     }
 
-    if (window.location.pathname.includes("hardware.html")) {
+    if (path.includes("hardware.html")) {
         fetch("hardware.json")
-            .then(response => response.json())
+            .then(res => res.json())
             .then(data => {
-                const hardware = data.hardware;
+                if (!catalogue) return;
                 catalogue.innerHTML = '';
-                hardware.forEach(item => {
+                data.hardware.forEach(item => {
                     const itemCard = document.createElement("div");
                     itemCard.classList.add("card");
                     itemCard.innerHTML = `
@@ -67,5 +76,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
             });
     }
-});
 
+    if (span) {
+        span.onclick = () => modal.style.display = "none";
+    }
+    window.onclick = (event) => {
+        if (event.target == modal) modal.style.display = "none";
+    };
+});

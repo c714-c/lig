@@ -6,6 +6,10 @@
     margin: 0
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -62,18 +66,23 @@ nav a{
 
 footer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
     gap: 5px;
     font-size: 20px;
     padding: 40px;
-    background-color: light-dark(rgb(0, 0, 0), rgb(175, 175, 175));
-    color: light-dark(rgb(211, 224, 255), rgb(67, 67, 67));
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: white;
+    font-family: "Vend Sans";
 }
 
 footer a{
     color: blue;
+}
+
+footer h3{
+    color: rgb(154, 154, 154)
 }
 
 main{
@@ -83,6 +92,11 @@ main{
 
 mark{
     background-color: light-dark(rgb(158, 158, 255),lightgray);
+}
+
+.footer-main{
+    display: flex;
+    flex-direction: column;
 }
 
 .showcase {
